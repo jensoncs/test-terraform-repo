@@ -1,0 +1,20 @@
+{
+  "files_generated": [
+    "/Users/jenson/sharechat/tesseract/tesseract-cli/test-terraform-repo/oci/sharechat/staging/network/network.plan",
+    "/Users/jenson/sharechat/tesseract/tesseract-cli/test-terraform-repo/oci/sharechat/staging/network/network.plan.json",
+    "/Users/jenson/sharechat/tesseract/tesseract-cli/test-terraform-repo/oci/sharechat/staging/network/network.plan-detailed.json"
+  ],
+  "metadata": {
+    "module_path": "/Users/jenson/sharechat/tesseract/tesseract-cli/test-terraform-repo/oci/sharechat/staging/network",
+    "output_directory": "/Users/jenson/sharechat/tesseract/tesseract-cli/test-terraform-repo/oci/sharechat/staging/network",
+    "path": "/Users/jenson/sharechat/tesseract/tesseract-cli/test-terraform-repo/oci/sharechat/staging/network",
+    "plan_file": "/Users/jenson/sharechat/tesseract/tesseract-cli/test-terraform-repo/oci/sharechat/staging/network/network.plan",
+    "target": "random_string.random_string1",
+    "tesseract_version": "1.0.0",
+    "timestamp": "2025-06-16T15:32:35+05:30"
+  },
+  "plan_output": {
+    "has_json": true,
+    "human_readable": "\nNo changes. Your infrastructure matches the configuration.\n\nTerraform has compared your real infrastructure against your configuration\nand found no differences, so no changes are needed.\n\nWarning: Resource targeting is in effect\n\nYou are creating a plan with the -target option, which means that the result\nof this plan may not represent all of the changes requested by the current\nconfiguration.\n\nThe -target option is not for routine use, and is provided only for\nexceptional situations such as recovering from errors or mistakes, or when\nTerraform specifically suggests to use it as part of an error message.\n"
+  }
+}
