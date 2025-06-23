@@ -1,6 +1,6 @@
 terraform {
   backend "gcs" {
-    bucket = "tesseract-storagei"
+    bucket = "tesseract-storage"
     prefix = "tesseract/gcp/sharechat/production/compute"
   }
 } 
