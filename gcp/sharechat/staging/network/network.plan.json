@@ -1,0 +1,20 @@
+{
+  "files_generated": [
+    "/Users/jenson/sharechat/tesseract/tesseract-cli/test-terraform-repo/gcp/sharechat/staging/network/network.plan",
+    "/Users/jenson/sharechat/tesseract/tesseract-cli/test-terraform-repo/gcp/sharechat/staging/network/network.plan.json",
+    "/Users/jenson/sharechat/tesseract/tesseract-cli/test-terraform-repo/gcp/sharechat/staging/network/network.plan-detailed.json"
+  ],
+  "metadata": {
+    "module_path": "/Users/jenson/sharechat/tesseract/tesseract-cli/test-terraform-repo/gcp/sharechat/staging/network",
+    "output_directory": "/Users/jenson/sharechat/tesseract/tesseract-cli/test-terraform-repo/gcp/sharechat/staging/network",
+    "path": "/Users/jenson/sharechat/tesseract/tesseract-cli/test-terraform-repo/gcp/sharechat/staging/network",
+    "plan_file": "/Users/jenson/sharechat/tesseract/tesseract-cli/test-terraform-repo/gcp/sharechat/staging/network/network.plan",
+    "target": "random_string.random_string1",
+    "tesseract_version": "1.0.0",
+    "timestamp": "2025-06-16T15:32:32+05:30"
+  },
+  "plan_output": {
+    "has_json": true,
+    "human_readable": "\nTerraform used the selected providers to generate the following execution\nplan. Resource actions are indicated with the following symbols:\n  + create\n\nTerraform will perform the following actions:\n\n  # random_string.random_string1 will be created\n  + resource \"random_string\" \"random_string1\" {\n      + id          = (known after apply)\n      + length      = 20\n      + lower       = true\n      + min_lower   = 0\n      + min_numeric = 0\n      + min_special = 0\n      + min_upper   = 0\n      + number      = true\n      + numeric     = true\n      + result      = (known after apply)\n      + special     = false\n      + upper       = true\n    }\n\nPlan: 1 to add, 0 to change, 0 to destroy.\n\nChanges to Outputs:\n  + name1 = (known after apply)\n\nWarning: Resource targeting is in effect\n\nYou are creating a plan with the -target option, which means that the result\nof this plan may not represent all of the changes requested by the current\nconfiguration.\n\nThe -target option is not for routine use, and is provided only for\nexceptional situations such as recovering from errors or mistakes, or when\nTerraform specifically suggests to use it as part of an error message.\n\n─────────────────────────────────────────────────────────────────────────────\n\nSaved the plan to:\n/Users/jenson/sharechat/tesseract/tesseract-cli/test-terraform-repo/gcp/sharechat/staging/network/network.plan\n\nTo perform exactly these actions, run the following command to apply:\n    terraform apply \"/Users/jenson/sharechat/tesseract/tesseract-cli/test-terraform-repo/gcp/sharechat/staging/network/network.plan\"\n"
+  }
+}
